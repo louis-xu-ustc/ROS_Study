@@ -1,0 +1,97 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AbstractGroupDescription	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      AbstractGroupDescription(std::string n, std::string t, int p, int i, bool s)$/;"	f	class:dynamic_tutorials::TutorialsConfig::AbstractGroupDescription
+AbstractGroupDescription	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    class AbstractGroupDescription : public dynamic_reconfigure::Group$/;"	c	class:dynamic_tutorials::TutorialsConfig
+AbstractGroupDescriptionConstPtr	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    typedef boost::shared_ptr<const AbstractGroupDescription> AbstractGroupDescriptionConstPtr;$/;"	t	class:dynamic_tutorials::TutorialsConfig
+AbstractGroupDescriptionPtr	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    typedef boost::shared_ptr<AbstractGroupDescription> AbstractGroupDescriptionPtr;$/;"	t	class:dynamic_tutorials::TutorialsConfig
+AbstractParamDescription	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      AbstractParamDescription(std::string n, std::string t, uint32_t l, $/;"	f	class:dynamic_tutorials::TutorialsConfig::AbstractParamDescription
+AbstractParamDescription	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    class AbstractParamDescription : public dynamic_reconfigure::ParamDescription$/;"	c	class:dynamic_tutorials::TutorialsConfig
+AbstractParamDescriptionConstPtr	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    typedef boost::shared_ptr<const AbstractParamDescription> AbstractParamDescriptionConstPtr;$/;"	t	class:dynamic_tutorials::TutorialsConfig
+AbstractParamDescriptionPtr	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    typedef boost::shared_ptr<AbstractParamDescription> AbstractParamDescriptionPtr;$/;"	t	class:dynamic_tutorials::TutorialsConfig
+DEFAULT	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    DEFAULT()$/;"	f	class:dynamic_tutorials::TutorialsConfig::DEFAULT
+DEFAULT	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^class DEFAULT$/;"	c	class:dynamic_tutorials::TutorialsConfig
+GroupDescription	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      GroupDescription(const GroupDescription<T, PT>& g): AbstractGroupDescription(g.name, g.type, g.parent, g.id, g.state), field(g.field), groups(g.groups)$/;"	f	class:dynamic_tutorials::TutorialsConfig::GroupDescription
+GroupDescription	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      GroupDescription(std::string name, std::string type, int parent, int id, bool s, T PT::* f) : AbstractGroupDescription(name, type, parent, id, s), field(f)$/;"	f	class:dynamic_tutorials::TutorialsConfig::GroupDescription
+GroupDescription	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    class GroupDescription : public AbstractGroupDescription$/;"	c	class:dynamic_tutorials::TutorialsConfig
+PACKAGE	cfg/Turtorials.cfg	/^PACKAGE = "dynamic_tutorials"$/;"	v
+ParamDescription	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      ParamDescription(std::string name, std::string type, uint32_t level, $/;"	f	class:dynamic_tutorials::TutorialsConfig::ParamDescription
+ParamDescription	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    class ParamDescription : public AbstractParamDescription$/;"	c	class:dynamic_tutorials::TutorialsConfig
+TutorialsConfig	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^  class TutorialsConfig$/;"	c	namespace:dynamic_tutorials
+TutorialsConfigStatics	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    TutorialsConfigStatics()$/;"	f	class:dynamic_tutorials::TutorialsConfigStatics
+TutorialsConfigStatics	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^  class TutorialsConfigStatics$/;"	c	namespace:dynamic_tutorials
+Tutorials_ExtraLarge	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      const int Tutorials_ExtraLarge = 3;$/;"	m	namespace:dynamic_tutorials
+Tutorials_ExtraLarge	src/dynamic_tutorials/cfg/TutorialsConfig.py	/^Tutorials_ExtraLarge = 3$/;"	v
+Tutorials_Large	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      const int Tutorials_Large = 2;$/;"	m	namespace:dynamic_tutorials
+Tutorials_Large	src/dynamic_tutorials/cfg/TutorialsConfig.py	/^Tutorials_Large = 2$/;"	v
+Tutorials_Medium	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      const int Tutorials_Medium = 1;$/;"	m	namespace:dynamic_tutorials
+Tutorials_Medium	src/dynamic_tutorials/cfg/TutorialsConfig.py	/^Tutorials_Medium = 1$/;"	v
+Tutorials_Small	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      const int Tutorials_Small = 0;$/;"	m	namespace:dynamic_tutorials
+Tutorials_Small	src/dynamic_tutorials/cfg/TutorialsConfig.py	/^Tutorials_Small = 0$/;"	v
+__clamp__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    void __clamp__()$/;"	f	class:dynamic_tutorials::TutorialsConfig
+__default__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    TutorialsConfig __default__;$/;"	m	class:dynamic_tutorials::TutorialsConfigStatics
+__description_message__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    dynamic_reconfigure::ConfigDescription __description_message__;$/;"	m	class:dynamic_tutorials::TutorialsConfigStatics
+__dynamic_tutorials__TUTORIALSCONFIG_H__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	11;"	d
+__fromMessage__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    bool __fromMessage__(dynamic_reconfigure::Config &msg)$/;"	f	class:dynamic_tutorials::TutorialsConfig
+__fromServer__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    void __fromServer__(const ros::NodeHandle &nh)$/;"	f	class:dynamic_tutorials::TutorialsConfig
+__getDefault__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^  inline const TutorialsConfig &TutorialsConfig::__getDefault__()$/;"	f	class:dynamic_tutorials::TutorialsConfig
+__getDescriptionMessage__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^  inline const dynamic_reconfigure::ConfigDescription &TutorialsConfig::__getDescriptionMessage__() $/;"	f	class:dynamic_tutorials::TutorialsConfig
+__getGroupDescriptions__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^  inline const std::vector<TutorialsConfig::AbstractGroupDescriptionConstPtr> &TutorialsConfig::__getGroupDescriptions__()$/;"	f	class:dynamic_tutorials::TutorialsConfig
+__getMax__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^  inline const TutorialsConfig &TutorialsConfig::__getMax__()$/;"	f	class:dynamic_tutorials::TutorialsConfig
+__getMin__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^  inline const TutorialsConfig &TutorialsConfig::__getMin__()$/;"	f	class:dynamic_tutorials::TutorialsConfig
+__getParamDescriptions__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^  inline const std::vector<TutorialsConfig::AbstractParamDescriptionConstPtr> &TutorialsConfig::__getParamDescriptions__()$/;"	f	class:dynamic_tutorials::TutorialsConfig
+__get_statics__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^  inline const TutorialsConfigStatics *TutorialsConfig::__get_statics__()$/;"	f	class:dynamic_tutorials::TutorialsConfig
+__group_descriptions__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    std::vector<TutorialsConfig::AbstractGroupDescriptionConstPtr> __group_descriptions__;$/;"	m	class:dynamic_tutorials::TutorialsConfigStatics
+__level__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    uint32_t __level__(const TutorialsConfig &config) const$/;"	f	class:dynamic_tutorials::TutorialsConfig
+__max__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    TutorialsConfig __max__;$/;"	m	class:dynamic_tutorials::TutorialsConfigStatics
+__min__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    TutorialsConfig __min__;$/;"	m	class:dynamic_tutorials::TutorialsConfigStatics
+__param_descriptions__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    std::vector<TutorialsConfig::AbstractParamDescriptionConstPtr> __param_descriptions__;$/;"	m	class:dynamic_tutorials::TutorialsConfigStatics
+__toMessage__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    void __toMessage__(dynamic_reconfigure::Config &msg) const$/;"	f	class:dynamic_tutorials::TutorialsConfig
+__toMessage__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    void __toMessage__(dynamic_reconfigure::Config &msg, const std::vector<AbstractParamDescriptionConstPtr> &__param_descriptions__, const std::vector<AbstractGroupDescriptionConstPtr> &__group_descriptions__) const$/;"	f	class:dynamic_tutorials::TutorialsConfig
+__toServer__	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    void __toServer__(const ros::NodeHandle &nh) const$/;"	f	class:dynamic_tutorials::TutorialsConfig
+abstract_parameters	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      std::vector<AbstractParamDescriptionConstPtr> abstract_parameters;$/;"	m	class:dynamic_tutorials::TutorialsConfig::AbstractGroupDescription
+all_level	src/dynamic_tutorials/cfg/TutorialsConfig.py	/^    all_level = all_level | param['level']$/;"	v
+all_level	src/dynamic_tutorials/cfg/TutorialsConfig.py	/^all_level = 0$/;"	v
+bool_param	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      bool bool_param;$/;"	m	class:dynamic_tutorials::TutorialsConfig
+bool_param	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^bool bool_param;$/;"	m	class:dynamic_tutorials::TutorialsConfig::DEFAULT
+calcLevel	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      virtual void calcLevel(uint32_t &comb_level, const TutorialsConfig &config1, const TutorialsConfig &config2) const$/;"	f	class:dynamic_tutorials::TutorialsConfig::ParamDescription
+clamp	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      virtual void clamp(TutorialsConfig &config, const TutorialsConfig &max, const TutorialsConfig &min) const$/;"	f	class:dynamic_tutorials::TutorialsConfig::ParamDescription
+clamp	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^  inline void TutorialsConfig::ParamDescription<std::string>::clamp(TutorialsConfig &config, const TutorialsConfig &max, const TutorialsConfig &min) const$/;"	f	class:dynamic_tutorials::TutorialsConfig::ParamDescription
+config_description	src/dynamic_tutorials/cfg/TutorialsConfig.py	/^config_description = {'upper': 'DEFAULT', 'lower': 'groups', 'srcline': 233, 'name': 'Default', 'parent': 0, 'srcfile': '\/opt\/ros\/indigo\/lib\/python2.7\/dist-packages\/dynamic_reconfigure\/parameter_generator.py', 'cstate': 'true', 'parentname': 'Default', 'class': 'DEFAULT', 'field': 'default', 'state': True, 'parentclass': '', 'groups': [], 'parameters': [{'srcline': 259, 'description': 'An Integer parameter', 'max': 100, 'cconsttype': 'const int', 'ctype': 'int', 'srcfile': '\/opt\/ros\/indigo\/lib\/python2.7\/dist-packages\/dynamic_reconfigure\/parameter_generator.py', 'name': 'int_param', 'edit_method': '', 'default': 50, 'level': 0, 'min': 0, 'type': 'int'}, {'srcline': 259, 'description': 'A double parameter', 'max': 1.0, 'cconsttype': 'const double', 'ctype': 'double', 'srcfile': '\/opt\/ros\/indigo\/lib\/python2.7\/dist-packages\/dynamic_reconfigure\/parameter_generator.py', 'name': 'double_param', 'edit_method': '', 'default': 0.5, 'level': 0, 'min': 0.0, 'type': 'double'}, {'srcline': 259, 'description': 'A string parameter', 'max': '', 'cconsttype': 'const char * const', 'ctype': 'std::string', 'srcfile': '\/opt\/ros\/indigo\/lib\/python2.7\/dist-packages\/dynamic_reconfigure\/parameter_generator.py', 'name': 'str_param', 'edit_method': '', 'default': 'Hello World', 'level': 0, 'min': '', 'type': 'str'}, {'srcline': 259, 'description': 'A Boolean parameter', 'max': True, 'cconsttype': 'const bool', 'ctype': 'bool', 'srcfile': '\/opt\/ros\/indigo\/lib\/python2.7\/dist-packages\/dynamic_reconfigure\/parameter_generator.py', 'name': 'bool_param', 'edit_method': '', 'default': True, 'level': 0, 'min': False, 'type': 'bool'}, {'srcline': 259, 'description': 'A size parameter which is edited via an enum', 'max': 3, 'cconsttype': 'const int', 'ctype': 'int', 'srcfile': '\/opt\/ros\/indigo\/lib\/python2.7\/dist-packages\/dynamic_reconfigure\/parameter_generator.py', 'name': 'size', 'edit_method': "{'enum_description': 'An enum to set size', 'enum': [{'srcline': 13, 'description': 'A small constant', 'srcfile': '\/home\/yunpengx\/catkin_ws\/src\/dynamic_tutorials\/cfg\/Turtorials.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Small'}, {'srcline': 14, 'description': 'A medium constant', 'srcfile': '\/home\/yunpengx\/catkin_ws\/src\/dynamic_tutorials\/cfg\/Turtorials.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Medium'}, {'srcline': 15, 'description': 'A large constant', 'srcfile': '\/home\/yunpengx\/catkin_ws\/src\/dynamic_tutorials\/cfg\/Turtorials.cfg', 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name': 'Large'}, {'srcline': 16, 'description': 'An extra large constant', 'srcfile': '\/home\/yunpengx\/catkin_ws\/src\/dynamic_tutorials\/cfg\/Turtorials.cfg', 'cconsttype': 'const int', 'value': 3, 'ctype': 'int', 'type': 'int', 'name': 'ExtraLarge'}]}", 'default': 1, 'level': 0, 'min': 0, 'type': 'int'}], 'type': '', 'id': 0}$/;"	v
+convertParams	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      void convertParams()$/;"	f	class:dynamic_tutorials::TutorialsConfig::AbstractGroupDescription
+defaults	src/dynamic_tutorials/cfg/TutorialsConfig.py	/^defaults = {}$/;"	v
+double_param	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      double double_param;$/;"	m	class:dynamic_tutorials::TutorialsConfig
+double_param	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^double double_param;$/;"	m	class:dynamic_tutorials::TutorialsConfig::DEFAULT
+dynamic_tutorials	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^namespace dynamic_tutorials$/;"	n
+fromMessage	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      virtual bool fromMessage(const dynamic_reconfigure::Config &msg, TutorialsConfig &config) const$/;"	f	class:dynamic_tutorials::TutorialsConfig::ParamDescription
+fromMessage	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      virtual bool fromMessage(const dynamic_reconfigure::Config &msg, boost::any &cfg) const$/;"	f	class:dynamic_tutorials::TutorialsConfig::GroupDescription
+fromServer	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      virtual void fromServer(const ros::NodeHandle &nh, TutorialsConfig &config) const$/;"	f	class:dynamic_tutorials::TutorialsConfig::ParamDescription
+gen	cfg/Turtorials.cfg	/^gen = ParameterGenerator()$/;"	v
+getValue	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      virtual void getValue(const TutorialsConfig &config, boost::any &val) const$/;"	f	class:dynamic_tutorials::TutorialsConfig::ParamDescription
+get_instance	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    static const TutorialsConfigStatics *get_instance()$/;"	f	class:dynamic_tutorials::TutorialsConfigStatics
+groups	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      std::vector<TutorialsConfig::AbstractGroupDescriptionConstPtr> groups;$/;"	m	class:dynamic_tutorials::TutorialsConfig::GroupDescription
+groups	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^}groups;$/;"	m	class:dynamic_tutorials::TutorialsConfig	typeref:class:dynamic_tutorials::TutorialsConfig::DEFAULT
+inf	src/dynamic_tutorials/cfg/TutorialsConfig.py	/^inf = float('inf')$/;"	v
+int_param	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      int int_param;$/;"	m	class:dynamic_tutorials::TutorialsConfig
+int_param	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    int int_param;$/;"	m	class:dynamic_tutorials::TutorialsConfig::DEFAULT
+level	src/dynamic_tutorials/cfg/TutorialsConfig.py	/^level = {}$/;"	v
+max	src/dynamic_tutorials/cfg/TutorialsConfig.py	/^max = {}$/;"	v
+min	src/dynamic_tutorials/cfg/TutorialsConfig.py	/^min = {}$/;"	v
+name	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    std::string name;$/;"	m	class:dynamic_tutorials::TutorialsConfig::DEFAULT
+setInitialState	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      virtual void setInitialState(boost::any &cfg) const$/;"	f	class:dynamic_tutorials::TutorialsConfig::GroupDescription
+setParams	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    void setParams(TutorialsConfig &config, const std::vector<AbstractParamDescriptionConstPtr> params)$/;"	f	class:dynamic_tutorials::TutorialsConfig::DEFAULT
+size	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      int size;$/;"	m	class:dynamic_tutorials::TutorialsConfig
+size	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^int size;$/;"	m	class:dynamic_tutorials::TutorialsConfig::DEFAULT
+size_enum	cfg/Turtorials.cfg	/^size_enum = gen.enum([ gen.const("Small",      int_t, 0, "A small constant"),$/;"	v
+state	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      bool state;$/;"	m	class:dynamic_tutorials::TutorialsConfig::AbstractGroupDescription
+state	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^    bool state;$/;"	m	class:dynamic_tutorials::TutorialsConfig::DEFAULT
+str_param	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      std::string str_param;$/;"	m	class:dynamic_tutorials::TutorialsConfig
+str_param	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^std::string str_param;$/;"	m	class:dynamic_tutorials::TutorialsConfig::DEFAULT
+toMessage	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      virtual void toMessage(dynamic_reconfigure::Config &msg, const TutorialsConfig &config) const$/;"	f	class:dynamic_tutorials::TutorialsConfig::ParamDescription
+toMessage	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      virtual void toMessage(dynamic_reconfigure::Config &msg, const boost::any &cfg) const$/;"	f	class:dynamic_tutorials::TutorialsConfig::GroupDescription
+toServer	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      virtual void toServer(const ros::NodeHandle &nh, const TutorialsConfig &config) const$/;"	f	class:dynamic_tutorials::TutorialsConfig::ParamDescription
+type	src/dynamic_tutorials/cfg/TutorialsConfig.py	/^type = {}$/;"	v
+updateParams	cfg/cpp/dynamic_tutorials/TutorialsConfig.h	/^      virtual void updateParams(boost::any &cfg, TutorialsConfig &top) const$/;"	f	class:dynamic_tutorials::TutorialsConfig::GroupDescription
